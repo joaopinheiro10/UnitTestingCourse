@@ -57,7 +57,7 @@ describe('Utils test suite', () =>
         }).toThrowError('Empty URL');
     });
 
-    test('test invalid url with try catch', () =>
+    test.only('test invalid url with try catch', () =>
     {
         try
         {
